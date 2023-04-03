@@ -1,0 +1,23 @@
+/* STICKY ELEMENT */
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+.sticky-right {
+    height: auto;
+    width: auto;
+    margin-right: 20px;
+    flex-grow: 1;
+    position: sticky;
+    top: 5rem;
+}
+
+.file_materi {
+    color: #333333;
+}
+
+.file_materi::before {
+    color: #007BFF;
+}
